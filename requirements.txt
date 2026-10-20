@@ -1,0 +1,17 @@
+# Everything for development, installed into env/ by ./setup.sh.
+
+# plan drawings (plan/rebuild_images.sh) and the AI render tools
+# below 13: mflux 0.23 fails to import with Pillow 13 (PIL._typing), on Python 3.12 and 3.13 alike
+Pillow>=10.0,<13
+numpy>=1.26
+
+# AI renders (explorations/ai_renders/): FLUX.2 [klein] 4B in-process via mflux, Apple silicon only
+mflux>=0.23,<0.24; sys_platform == "darwin" and platform_machine == "arm64"
+# mflux needs OpenCV 4
+opencv-python>=4.9,<5
+# mflux needs huggingface_hub 1.x
+huggingface_hub>=1.0,<2
+# memory check before loading the model
+psutil>=5.9
+# downloads verify HTTPS with the OS certificate store (networks that inspect HTTPS)
+truststore>=0.10

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Units: 1 SVG unit = 1 inch. Origin = left boundary line / top line. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4 -4 316 836" width="790" height="2090">
+  <rect x="-4" y="-4" width="316" height="836" fill="#fff"/>
+  <g fill="none" stroke="#222" stroke-width="1.5" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Left boundary (sidewalk / alley outer edge) -->
+    <line x1="0" y1="0" x2="0" y2="832" vector-effect="non-scaling-stroke"/>
+
+    <!-- Parking pad: 245" (from half wall) x 217" -->
+    <line x1="0" y1="0" x2="308" y2="0" vector-effect="non-scaling-stroke"/>
+    <line x1="308" y1="0" x2="308" y2="217" vector-effect="non-scaling-stroke"/>
+    <line x1="126.5" y1="217" x2="308" y2="217" vector-effect="non-scaling-stroke"/>
+
+    <!-- Half wall: 36" from left edge, 245" to pad right edge -->
+    <rect x="36" y="28" width="27" height="157" vector-effect="non-scaling-stroke"/>
+
+    <!-- Grass: 228.5" wide, 408" tall, 85" x 61" curved notch top-left -->
+    <path d="M 126.5 217 L 126.5 228 C 126.5 258, 96.5 275, 61.5 277.5 L 41.5 278
+             L 41.5 617 Q 41.5 625, 49.5 625 L 270 625" vector-effect="non-scaling-stroke"/>
+
+    <!-- Mulch strip edge (38" wide) and post (8") -->
+    <line x1="270" y1="217" x2="270" y2="625" vector-effect="non-scaling-stroke"/>
+    <circle cx="289" cy="479.2" r="4" vector-effect="non-scaling-stroke"/>
+
+    <!-- Concrete patio right edge -->
+    <path d="M 270 625 C 276 624.5, 280 628, 281 635 L 285 671 L 285 804" vector-effect="non-scaling-stroke"/>
+
+    <!-- Small circle by grass corner -->
+    <circle cx="270" cy="652" r="8" vector-effect="non-scaling-stroke"/>
+
+    <!-- Table -->
+    <circle cx="235.6" cy="686" r="27" vector-effect="non-scaling-stroke"/>
+
+    <!-- Steps: 69" x 51", 45" from grass -->
+    <path d="M 72 721 L 72 670 L 141 670 L 141 721" vector-effect="non-scaling-stroke"/>
+
+    <!-- House: 162.5" wide, 96" from grass; alley 23.5" -->
+    <line x1="0" y1="721" x2="21" y2="721" vector-effect="non-scaling-stroke"/>
+    <line x1="23.5" y1="721" x2="186" y2="721" vector-effect="non-scaling-stroke"/>
+    <line x1="23.5" y1="721" x2="23.5" y2="832" vector-effect="non-scaling-stroke"/>
+    <line x1="186" y1="721" x2="186" y2="802" vector-effect="non-scaling-stroke"/>
+
+    <!-- A/C: 32" x 32" -->
+    <rect x="191.4" y="728" width="32" height="32" vector-effect="non-scaling-stroke"/>
+
+    <!-- Shed: 51" x 30.5" -->
+    <rect x="214.5" y="775.5" width="51" height="30.5" vector-effect="non-scaling-stroke"/>
+
+    <!-- Bottom line, 85" below house front -->
+    <line x1="185" y1="806" x2="308" y2="806" vector-effect="non-scaling-stroke"/>
+  </g>
+
+  <!-- Pergola 14' x 12' (168" x 144"), against the house, left edge aligned with steps -->
+  <rect x="72" y="577" width="168" height="144" fill="#2e8b57" fill-opacity="0.25"
+        stroke="#1f7a3a" stroke-width="2.5" vector-effect="non-scaling-stroke"/>
+</svg>
